@@ -11,7 +11,7 @@ export default function Header() {
         <header className="border-b bg;white">
             <div className="mx-auto flex mac-w-5xl items-center justify-between px-4 py-4">
                 <Link href="/" className="text-lg font-semibold tracking-tight">
-                    Haruna.dev
+                    Haru.dev
                 </Link>
 
                 <nav className="flex items-center gap-6 text-sm">
