@@ -1,6 +1,9 @@
 {
   "name": "own-site",
   "private": true,
+  "workspaces": [
+    "my-portfolio"
+  ],
   "scripts": {
     "dev": "npm --prefix my-portfolio run dev",
     "build": "npm --prefix my-portfolio run build",
