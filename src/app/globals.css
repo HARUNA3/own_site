@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 :root {
   --background: #ffffff;
@@ -24,3 +25,16 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.dot {
+  --dot-color: rgba(203, 213, 225, 0.35);
+  --dot-size: 1.5px;
+  --dot-space: 20px;
+  background-color: white;
+  background-image:
+    radial-gradient(var(--dot-color) var(--dot-size), transparent 0),
+    radial-gradient(var(--dot-color) var(--dot-size), transparent 0);
+  background-size: var(--dot-space) var(--dot-space);
+  background-position: 0 0, calc(var(--dot-space) / 2) calc(var(--dot-space) / 2);
+}
+
