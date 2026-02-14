@@ -27,7 +27,7 @@ body {
 }
 
 .dot {
-  --dot-color: rgba(203, 213, 225, 0.35);
+  --dot-color: rgba(49, 54, 60, 0.164);
   --dot-size: 1.5px;
   --dot-space: 20px;
   background-color: white;
@@ -36,5 +36,11 @@ body {
     radial-gradient(var(--dot-color) var(--dot-size), transparent 0);
   background-size: var(--dot-space) var(--dot-space);
   background-position: 0 0, calc(var(--dot-space) / 2) calc(var(--dot-space) / 2);
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
