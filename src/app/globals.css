@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 @import "tailwindcss";
 @plugin "daisyui";
+
 
 :root {
   --background: #ffffff;
@@ -42,5 +44,46 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+@keyframes sectionFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section-fade {
+  opacity: 0;
+  animation: sectionFadeUp 900ms ease-out forwards;
+}
+
+.delay-1 { animation-delay: 120ms; }
+.delay-2 { animation-delay: 260ms; }
+.delay-3 { animation-delay: 420ms; }
+.delay-4 { animation-delay: 580ms; }
+.delay-5 { animation-delay: 740ms; }
+.delay-6 { animation-delay: 900ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  .section-fade {
+    opacity: 1;
+    animation: none;
+    transform: none;
+  }
+}
+
+.nunito-sans {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
 }
 
