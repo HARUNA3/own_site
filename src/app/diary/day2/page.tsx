@@ -4,7 +4,7 @@ export default function day1Diary() {
     return (
         <main className="max-auto w-full max-w-5xl px-8 py-16 sm:px-12">
             <div>
-                <h1 className="text-3xl font-bold">day1 diary</h1>
+                <h1 className="text-3xl font-bold">day2 diary</h1>
 
             </div>
 

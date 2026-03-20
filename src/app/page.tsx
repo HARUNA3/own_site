@@ -98,7 +98,7 @@ export default function Home() {
               <ul className="space-y-1 text-sm">
                 <li>Name: Haruna</li>
                 <li>Email: hello@haruna.dev</li>
-                <li>Location: Tokyo / Remote</li>
+                <li>Location: Toronto / Remote</li>
               </ul>
             </div>
 
@@ -114,7 +114,6 @@ export default function Home() {
             <div>
               <h3 className="mb-2 font-semibold">Sections</h3>
               <ul className="space-y-1 text-sm">
-                <li><Link href="/myself">Myself</Link></li>
                 <li><Link href="/service">Service</Link></li>
                 <li><Link href="/resume">Resume</Link></li>
                 <li><Link href="/work">Work</Link></li>
@@ -125,9 +124,8 @@ export default function Home() {
             <div>
               <h3 className="mb-2 font-semibold">SNS</h3>
               <ul className="space-y-1 text-sm">
-                <li><a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a></li>
-                <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
-                <li><a href="https://x.com" target="_blank" rel="noreferrer">X (Twitter)</a></li>
+                <li><a href="https://github.com/HARUNA3" target="_blank" rel="noreferrer">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/haruna-fujishima-812b7a1b8/" target="_blank" rel="noreferrer">LinkedIn</a></li>
               </ul>
             </div>
 
