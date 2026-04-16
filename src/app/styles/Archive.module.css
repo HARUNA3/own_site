@@ -1,0 +1,83 @@
+/* styles/Archive.module.css */
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  margin-top: 0;
+  font-size: 2.5rem;
+}
+
+.header p {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+}
+
+.yearSection {
+  margin-bottom: 3rem;
+}
+
+.year {
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.postList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.postItem {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-border);
+  align-items: center;
+}
+
+.postItem:last-child {
+  border-bottom: none;
+}
+
+.date {
+  flex-shrink: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  min-width: 100px;
+  text-align: right;
+}
+
+.postLink {
+  flex: 1;
+  color: var(--color-text);
+  transition: color 0.2s;
+}
+
+.postLink:hover {
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.75rem;
+  }
+
+  .year {
+    font-size: 1.25rem;
+  }
+
+  .postItem {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  .date {
+    text-align: left;
+    min-width: auto;
+  }
+}

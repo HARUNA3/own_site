@@ -19,13 +19,13 @@ const topics = [
   { id: 10, des: "life" }
 ];
 
-export default function EditDiary() {
+export default function EditBlog() {
     const [selected, setSelected] = useState([topics[0]])
 
     return (
         <main className="mx-auto w-full max-w-5xl px-8 py-16 sm:px-12">
             <fieldset className="fieldset bg-base-200 border-base-300 rounded-box w-full border p-4">
-                <legend className="fieldset-legend">Diary Content</legend>
+                <legend className="fieldset-legend">Blog Content</legend>
 
                 <label className="label">Title</label>
                 <input type="text" className="input w-full" placeholder="My awesome page" />
@@ -33,7 +33,7 @@ export default function EditDiary() {
                 <label className="label">Content</label>
                 <textarea
                 className="textarea textarea-bordered w-full h-40"
-                placeholder="Write your diary here..."
+                placeholder="Write your blog here..."
                 ></textarea>
 
                 <Listbox value={selected} onChange={setSelected} multiple>
@@ -74,8 +74,8 @@ export default function EditDiary() {
                 </Listbox>
             </fieldset>
 
-             <Link href="/diary" className="mt-8 inline-flex rounded-md bg-black px-4 py-2 text-sm text-white">
-                Back to Diary
+                 <Link href="/blog" className="mt-8 inline-flex rounded-md bg-black px-4 py-2 text-sm text-white">
+                     Back to Blog
             </Link>
         </main>
     )

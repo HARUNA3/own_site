@@ -66,9 +66,9 @@ export default function Home() {
             </div>
           </section>
 
-          <section id="diary" className="section-fade delay-5">
+          <section id="blog" className="section-fade delay-5">
             <h2 className="mb-4 inline-flex items-center gap-2 rounded-[0.375rem] p-2" style={{ backgroundColor: "oklch(78% 0.14 34)" }}>
-              <Link href="/diary">Diary</Link>
+              <Link href="/blog">Blog</Link>
             </h2>
             <div className="min-h-32 rounded-3xl p-4" style={{ backgroundColor: "oklch(97% 0.03 34)" }}>
               Notes, updates, and daily logs.
@@ -117,7 +117,7 @@ export default function Home() {
                 <li><Link href="/service">Service</Link></li>
                 <li><Link href="/resume">Resume</Link></li>
                 <li><Link href="/work">Work</Link></li>
-                <li><Link href="/diary">Diary</Link></li>
+                <li><Link href="/blog">Blog</Link></li>
               </ul>
             </div>
 
