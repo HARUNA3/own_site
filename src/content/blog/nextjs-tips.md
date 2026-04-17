@@ -4,9 +4,9 @@ excerpt: "A short memo about global CSS, app router routes, and markdown renderi
 date: "2026-04-16"
 author: "Haru"
 tags:
-	- diary
-	- nextjs
-	- markdown
+  - diary
+  - nextjs
+  - markdown
 featured: false
 ---
 

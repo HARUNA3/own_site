@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",
@@ -23,7 +23,6 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/markdown-it": "^14.1.2",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

@@ -4,9 +4,9 @@ excerpt: "Why I started writing daily logs and how this markdown blog is structu
 date: "2026-04-15"
 author: "Haru"
 tags:
-	- diary
-	- setup
-	- nextjs
+  - diary
+  - setup
+  - nextjs
 featured: true
 ---
 
